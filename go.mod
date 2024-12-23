@@ -1,6 +1,8 @@
 module github.com/aevea/commitsar
 
-go 1.19
+go 1.21
+
+toolchain go1.23.4
 
 require (
 	github.com/aevea/git/v3 v3.1.0
@@ -10,6 +12,7 @@ require (
 	github.com/apex/log v1.9.0
 	github.com/go-git/go-git/v5 v5.11.0
 	github.com/google/go-github/v32 v32.1.0
+	github.com/google/go-github/v68 v68.0.0
 	github.com/jedib0t/go-pretty v4.3.0+incompatible
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/magefile/mage v1.15.0
